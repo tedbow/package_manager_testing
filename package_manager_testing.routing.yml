@@ -1,0 +1,6 @@
+manual_test.install:
+  path: '/manual-test-install'
+  defaults:
+    _controller: 'Drupal\package_manager_testing\InstallController::install'
+  requirements:
+    _access: 'TRUE'

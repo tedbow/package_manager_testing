@@ -1,0 +1,6 @@
+name: Packmanager testing
+description: A manual test for 3322931
+type: module
+dependencies:
+  - drupal:package_manager
+core_version_requirement: ^9 || ^10
